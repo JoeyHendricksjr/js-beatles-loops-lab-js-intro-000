@@ -23,3 +23,12 @@ function johnLennonFacts(arr) {
   }
   return newArr;
 }
+function iLoveTheBeatles(num) {
+	let empArr = [];
+	do {
+		empArr.push('I love the beatles!');
+		num++;
+	}
+	while(num < 15)
+		return empArr;
+}
