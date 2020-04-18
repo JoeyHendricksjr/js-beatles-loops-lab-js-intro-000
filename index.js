@@ -29,6 +29,6 @@ function iLoveTheBeatles(num) {
 		empArr.push('I love the beatles!');
 		num++;
 	}
-	while(num < 15)
+	while(num <= 15)
 		return empArr;
 }
