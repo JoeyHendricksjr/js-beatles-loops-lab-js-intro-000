@@ -25,10 +25,15 @@ function johnLennonFacts(arr) {
 }
 function iLoveTheBeatles(num) {
 	let empArr = [];
+	//num = num - 1;
 	do {
 		empArr.push('I love the beatles!');
 		num++;
 	}
 	while(num < 15)
 		return empArr;
+	if(num > 17) {
+		num = 16;
+		return empArr;
+	}
 }
